@@ -7,7 +7,7 @@ const logger = require('./libs/logger')
 
 // Require objects/methods (controllers)
 const mockupData = require('./routes/mockupRout');
-const provinceRoutes = require('./routes/province');
+const provinceData = require('./routes/provinceRout');
 
 // Save express package as constant
 const app = express();
@@ -21,7 +21,7 @@ app.use(health.ping());
 // Linking routers --> app.method(path,handler)
 // app; instance expres, method; HTTP req method, path; on server, handler; function executed
 app.use('/api/mockupData', mockupData);
-app.use('/api/provinceRoutes', provinceRoutes);
+app.use('/api/provinceData', provinceData);
 
 // Handle errors
 app.use(function (err, req, res, next) {
@@ -34,6 +34,6 @@ app.listen(port, () => console.log(
   `
     API ping is listening at http://localhost:${port}/ping
     Mockup data is listening at http://localhost:${port}/api/mockupData
-    Province data is listening at http://localhost:${port}/api/provinceRoutes
+    Province data is listening at http://localhost:${port}/api/provinceData
 
   `))
