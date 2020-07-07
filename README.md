@@ -25,7 +25,7 @@ Project is created with:
 
 ## Credits
 Backend Express / Node.js starting point:
-[SQLite Tutorial](https://expressjs.com/)
+[Express / Node.js Tutorial](https://expressjs.com/)
 
 Database SQLite starting point:
 [SQLite Tutorial](https://www.sqlitetutorial.net/)
