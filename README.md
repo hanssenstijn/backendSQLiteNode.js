@@ -4,6 +4,7 @@ The main objective is to interact with `SQLite` databases from a `Node.js` appli
 ## Table of contents
 * [Project](#Project)
 * [Technologies](#technologies)
+* [Databases](#Databases)
 * [Credits](#Credits)
 
 ## Project
@@ -22,6 +23,12 @@ Project is created with:
 * Node.js
 * API
 * SQLite
+
+## Databases
+[Download SqLite here](https://www.sqlite.org/index.html)
+`DutchProvinces.db` has 2 different datasets:
+1. `infoProvince` - name / squaremeter / capital
+2. `inhabitants` -  name / inhabitants
 
 ## Credits
 Backend Express / Node.js starting point:
