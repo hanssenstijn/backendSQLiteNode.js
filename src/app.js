@@ -26,6 +26,8 @@ app.use(function (err, req, res, next) {
 
 // Run application
 app.listen(port, () => console.log(
-  `API ping is listening at http://localhost:${port}/ping
-  Mockup data is listening at http://localhost:${port}/api/mockupData
+  `
+    API ping is listening at http://localhost:${port}/ping
+    Mockup data is listening at http://localhost:${port}/api/mockupData
+    
   `))

@@ -4,7 +4,7 @@
   "description": "The main objective is to interact with `SQLite` databases from a `Node.js` application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
