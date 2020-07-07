@@ -1,0 +1,19 @@
+{
+  "name": "backendsqlitenode",
+  "version": "1.0.0",
+  "description": "The main objective is to interact with `SQLite` databases from a `Node.js` application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanssenstijn/backendSQLiteNode.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanssenstijn/backendSQLiteNode.js/issues"
+  },
+  "homepage": "https://github.com/hanssenstijn/backendSQLiteNode.js#readme"
+}
