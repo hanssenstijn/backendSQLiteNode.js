@@ -46,4 +46,5 @@ Backend Express / Node.js starting point:
 Database SQLite starting point:
 [SQLite Tutorial](https://www.sqlitetutorial.net/)
 
-
+Random Mockup JSON generator:
+[JSON generator](https://www.json-generator.com/)
