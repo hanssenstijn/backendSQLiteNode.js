@@ -3,8 +3,9 @@ The main objective is to interact with `SQLite` databases from a `Node.js` appli
 
 ## Table of contents
 * [Project](#Project)
-* [Technologies](#technologies)
 * [Databases](#Databases)
+* [APIs](#APIs)
+* [Technologies](#technologies)
 * [Credits](#Credits)
 
 ## Project
@@ -16,6 +17,20 @@ This project has multiple subgoals:
 5. SQL calls - response: specific rows and/or columns
 6. SQL calls - response: combined rows and/or columns
 
+## Databases
+[Download SqLite](https://www.sqlite.org/index.html)
+
+`DutchProvinces.db` has 2 different datasets:
+1. `infoProvince` - name / squaremeter / capital
+2. `inhabitants` -  name / inhabitants
+
+## APIs
+> API ping is listening at http://localhost:4000/ping
+
+> Mockup data is listening at http://localhost:4000/api/mockupData 
+
+> Province data is listening at http://localhost:4000/api/provinceData
+
 ## Technologies
 Project is created with:
 * JavaScript
@@ -23,13 +38,6 @@ Project is created with:
 * Node.js
 * API
 * SQLite
-
-## Databases
-[Download SqLite](https://www.sqlite.org/index.html)
-
-`DutchProvinces.db` has 2 different datasets:
-1. `infoProvince` - name / squaremeter / capital
-2. `inhabitants` -  name / inhabitants
 
 ## Credits
 Backend Express / Node.js starting point:
