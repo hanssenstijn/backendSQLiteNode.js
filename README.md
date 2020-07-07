@@ -9,11 +9,11 @@ The main objective is to interact with `SQLite` databases from a `Node.js` appli
 ## Project
 This project has multiple subgoals:
 1. Set up Node.js application
-2. Ping - Pong connection
-3. Mock data - response all the data
-4. Database connection - response all the data from both databases
-5. SQL calls - response rows and/or columns
-6. SQL calls - combine rows and/or columns
+2. Check health application - Ping Pong connection
+3. Mockup data - response: all the mockup data
+4. Database connection - response: all the data from both databases
+5. SQL calls - response: specific rows and/or columns
+6. SQL calls - response: combined rows and/or columns
 
 ## Technologies
 Project is created with:
