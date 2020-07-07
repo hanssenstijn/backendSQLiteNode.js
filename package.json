@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/hanssenstijn/backendSQLiteNode.js/issues"
   },
-  "homepage": "https://github.com/hanssenstijn/backendSQLiteNode.js#readme"
+  "homepage": "https://github.com/hanssenstijn/backendSQLiteNode.js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ping": "^1.4.0",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  }
 }
