@@ -25,7 +25,8 @@ Project is created with:
 * SQLite
 
 ## Databases
-[Download SqLite here](https://www.sqlite.org/index.html)
+[Download SqLite](https://www.sqlite.org/index.html)
+
 `DutchProvinces.db` has 2 different datasets:
 1. `infoProvince` - name / squaremeter / capital
 2. `inhabitants` -  name / inhabitants
