@@ -3,9 +3,9 @@ The main objective is to interact with `SQLite` databases from a `Node.js` appli
 
 ## Table of contents
 * [Project](#Project)
+* [Technologies](#technologies)
 * [Databases](#Databases)
 * [APIs](#APIs)
-* [Technologies](#technologies)
 * [Credits](#Credits)
 
 ## Project
@@ -16,6 +16,14 @@ This project has multiple subgoals:
 4. Database connection - response: all the data from both databases
 5. SQL calls - response: specific rows and/or columns
 6. SQL calls - response: combined rows and/or columns
+
+## Technologies
+Project is created with:
+* JavaScript
+* Express
+* Node.js
+* API
+* SQLite
 
 ## Databases
 [Download SqLite](https://www.sqlite.org/index.html)
@@ -30,14 +38,6 @@ This project has multiple subgoals:
 > Mockup data is listening at http://localhost:4000/api/mockupData 
 
 > Province data is listening at http://localhost:4000/api/provinceData
-
-## Technologies
-Project is created with:
-* JavaScript
-* Express
-* Node.js
-* API
-* SQLite
 
 ## Credits
 Backend Express / Node.js starting point:
