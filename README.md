@@ -20,8 +20,10 @@ This project has multiple objectives:
 ## Technologies
 Project is created with:
 * JavaScript
-* Express
-* Node.js
+  * express
+  * nodemon
+  * sqlite3
+  * winston
 * API
 * SQLite
 
