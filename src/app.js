@@ -3,7 +3,7 @@ const express = require('express');
 const health = require('express-ping');
 
 // own package
-const logger = require('./libs/logger')
+const logger = require('./libs/logger');
 
 // Require objects/methods (controllers)
 const mockupData = require('./routes/mockupRout');

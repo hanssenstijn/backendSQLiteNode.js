@@ -22,7 +22,7 @@ const getRowFromTable = async (table) => {
 
   // Query database
   const result = await new Promise((resolve, reject) => {
-    db.all(sql, rowid, (err, rows) => {
+    db.get(sql, rowid, (err, rows) => {
       if (err) {
         logger.error(err);
         reject(err);
