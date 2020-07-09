@@ -9,6 +9,7 @@ const logger = require('./libs/logger');
 const mockupData = require('./routes/mockupRout');
 const provinceData = require('./routes/provinceRout');
 const rowData = require('./routes/rowRout');
+const combinedData = require('./routes/combinedRout');
 
 // Save express package as constant
 const app = express();
@@ -24,6 +25,7 @@ app.use(health.ping());
 app.use('/api/mockupData', mockupData);
 app.use('/api/provinceData', provinceData);
 app.use('/api/rowData', rowData);
+app.use('/api/combinedData', combinedData);
 
 // Handle errors
 app.use(function (err, req, res, next) {
@@ -38,5 +40,6 @@ app.listen(port, () => console.log(
     Mockup data is listening at http://localhost:${port}/api/mockupData
     Province data from both tabels is listening at http://localhost:${port}/api/provinceData
     Row data from the inhabitants table is listening at http://localhost:${port}/api/rowData
+    Combined data from both tables is listening at http://localhost:${port}/api/combinedData
 
   `))
