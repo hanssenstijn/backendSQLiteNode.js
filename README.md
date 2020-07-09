@@ -27,6 +27,8 @@ Project is created with:
   * Sqlite3
   * Winston
   * Mocha
+  * Chai
+  * Chai-http
   * Swagger
 * SQLite
   * SELECT WHERE 
