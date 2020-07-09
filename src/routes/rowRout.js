@@ -1,7 +1,7 @@
 const express = require("express");
 
 const logger = require('../libs/logger')
-const { getRowData } = require('../controllers/specificRowsColumnsCon');
+const { getRowData } = require('../controllers/specificRowsCon');
 
 const router = express.Router();
 

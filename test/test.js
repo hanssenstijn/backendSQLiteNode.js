@@ -2,6 +2,8 @@ const app = require("../src/app");
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 
+const { getRowData } = require('../src/controllers/specificRowsCon');
+
 const { expect } = chai;
 chai.use(chaiHttp);
 describe("Server!", () => {
@@ -16,7 +18,7 @@ describe("Server!", () => {
         done();
       });
   });
-  it("welcomes user to the mockupData", done => {
+  it("Checks status off mockupData api", done => {
     chai
       .request(app)
       .get("/api/mockupData")

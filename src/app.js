@@ -14,6 +14,7 @@ const combinedData = require('./routes/combinedRout');
 // Save express package as constant
 const app = express();
 
+// testing purpose
 app.get("/", (req, res) => {
   res.json({ status: "success", message: "Welcome To Testing API" });
 });
