@@ -20,12 +20,14 @@ This project has multiple objectives:
 ## Technologies
 Project is created with:
 * JavaScript
-  * express
-  * nodemon
-  * sqlite3
-  * winston
-* API
+  * Express
+  * Nodemon
+  * Sqlite3
+  * Winston
 * SQLite
+  * SELECT WHERE 
+  * SELECT INNER JOIN
+* API
 
 ## Databases
 Used SQLite as relational database management system.
@@ -41,9 +43,11 @@ Used SQLite as relational database management system.
 
 > Mockup data is listening at http://localhost:4000/api/mockupData 
 
-> Province data from both tabels is listening at http://localhost:4000/api/provinceData
+> Province data from both tables is listening at http://localhost:4000/api/provinceData
 
 > Row data from the `inhabitants table` is listening at http://localhost:4000/api/rowData
+
+> Combined data (Inner Join) from both tables is listening at http://localhost:4000/api/combinedData
 
 ## Credits
 Backend Express / Node.js starting point:
