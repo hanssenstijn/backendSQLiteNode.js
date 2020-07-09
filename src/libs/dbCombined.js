@@ -15,17 +15,14 @@ const getCombinedDataFromTables = async (table1, table2) => {
   });
 
   let params;
-  let sql1 = `
-    SELECT rowid AS id, *
-    FROM ${table1}`;
-
-  let sql2 = `
-    SELECT rowid AS id, *
-    FROM ${table2}`;
+  let sql = `
+    SELECT *
+    FROM ${table1}
+    INNER JOIN ${table2} on ${table2}.name = ${table1}.name`;
 
   // Query database
   const result = await new Promise((resolve, reject) => {
-    db.all(sql1, params, (err, rows) => {
+    db.all(sql, params, (err, rows) => {
       if (err) {
         logger.error(err);
         reject(err);
