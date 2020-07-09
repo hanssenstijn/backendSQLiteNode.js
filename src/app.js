@@ -14,6 +14,10 @@ const combinedData = require('./routes/combinedRout');
 // Save express package as constant
 const app = express();
 
+app.get("/", (req, res) => {
+  res.json({ status: "success", message: "Welcome To Testing API" });
+});
+
 // Define port, process.env incase envirnment variable PORT is set
 const port = process.env.PORT || 4000;
 
@@ -34,7 +38,7 @@ app.use(function (err, req, res, next) {
 });
 
 // Run application
-app.listen(port, () => console.log(
+const server = app.listen(port, () => console.log(
   `
     API ping is listening at http://localhost:${port}/ping
     Mockup data is listening at http://localhost:${port}/api/mockupData
@@ -43,3 +47,5 @@ app.listen(port, () => console.log(
     Combined data from both tables is listening at http://localhost:${port}/api/combinedData
 
   `))
+
+module.exports = server

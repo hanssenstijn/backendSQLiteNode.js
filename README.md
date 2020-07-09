@@ -14,8 +14,10 @@ This project has multiple objectives:
 2. Check health application - Ping Pong connection
 3. Mockup data - response: all the mockup data
 4. Database connection - response: all the data from both tables
-5. SQL calls - response: specific row
-6. SQL calls - response: combine data from tables
+5. SQL calls - response: specific row (SELECT WHERE)
+6. SQL calls - response: combine data from tables (INNER JOIN)
+7. Using Testframework - asynchronous testing
+8. Documentation of APIs
 
 ## Technologies
 Project is created with:
@@ -24,6 +26,8 @@ Project is created with:
   * Nodemon
   * Sqlite3
   * Winston
+  * Mocha
+  * Swagger
 * SQLite
   * SELECT WHERE 
   * SELECT INNER JOIN
