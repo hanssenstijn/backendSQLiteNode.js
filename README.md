@@ -47,7 +47,7 @@ Used `SQLite` as relational database management system.
 [Download SqLite](https://www.sqlite.org/index.html)
 
 ## APIs
-For this project we used `Swagger` to describe and document RESTful APIs.
+ `Swagger` is used to describe and document RESTful APIs.
 
 > Swagger documentation is listening at http://localhost:4000/api-docs
 
@@ -62,7 +62,7 @@ For this project we used `Swagger` to describe and document RESTful APIs.
 > Combined data (Inner Join) from both tables is listening at http://localhost:4000/api/combinedData
 
 ## Testing
-`Mocha` is the library that allows us to run tests, and `Chai` contains some helpful functions that we'll use to verify our test results.
+`Mocha` is the library that allows to run tests, and `Chai` contains some helpful functions that will be used to verify our test results.
 
 Multiple tests were conducted:
 * Set up Node.js application - Running
