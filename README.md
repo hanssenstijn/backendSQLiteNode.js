@@ -53,7 +53,7 @@ Used SQLite as relational database management system.
 
 > Province data from both tables is listening at http://localhost:4000/api/provinceData
 
-> Row data from the `inhabitants table` is listening at http://localhost:4000/api/rowData
+> Row data from the `inhabitants` table is listening at http://localhost:4000/api/rowData
 
 > Combined data (Inner Join) from both tables is listening at http://localhost:4000/api/combinedData
 
@@ -61,9 +61,9 @@ Used SQLite as relational database management system.
 `Mocha` is the library that allows us to run tests, and `Chai` contains some helpful functions that we'll use to verify our test results.
 
 Multiple tests were conducted:
-* Set up Node.js application is `Running`
-* Mockup data api `Status 200`
-* Row data api `Status 200 | Class response | Properties reponse`
+* Set up Node.js application - Running
+* Mockup data api - Status 200
+* Row data api - Status 200 | Class response | Properties reponse
 
 ## Documentation
 
