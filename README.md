@@ -7,7 +7,6 @@ The main objective is to interact with `SQLite` databases from a `Node.js` appli
 * [Databases](#Databases)
 * [APIs](#APIs)
 * [Testing](#Testing)
-* [Documentation](#Documentation)
 * [Credits](#Credits)
 
 ## Project
@@ -31,7 +30,8 @@ Project is created with:
   * Mocha
   * Chai
   * Chai-http
-  * Swagger
+  * Swagger-ui-express
+  * Yamljs
 * SQLite
   * SELECT WHERE 
   * SELECT INNER JOIN
@@ -47,6 +47,8 @@ Used SQLite as relational database management system.
 [Download SqLite](https://www.sqlite.org/index.html)
 
 ## APIs
+> Swagger documentation is listening at http://localhost:4000/api-docs
+
 > API ping is listening at http://localhost:4000/ping
 
 > Mockup data is listening at http://localhost:4000/api/mockupData 
@@ -64,8 +66,6 @@ Multiple tests were conducted:
 * Set up Node.js application - Running
 * Mockup data api - Status 200
 * Row data api - Status 200 | Class response | Properties reponse
-
-## Documentation
 
 ## Credits
 Backend Express / Node.js starting point:

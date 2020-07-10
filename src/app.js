@@ -1,6 +1,9 @@
 // Load packages
 const express = require('express');
 const health = require('express-ping');
+const swaggerUi = require('swagger-ui-express');
+const YAML = require('yamljs');
+const swaggerDocument = YAML.load('./swagger.yaml');
 
 // own package
 const logger = require('./libs/logger');
@@ -31,6 +34,7 @@ app.use('/api/mockupData', mockupData);
 app.use('/api/provinceData', provinceData);
 app.use('/api/rowData', rowData);
 app.use('/api/combinedData', combinedData);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Handle errors
 app.use(function (err, req, res, next) {

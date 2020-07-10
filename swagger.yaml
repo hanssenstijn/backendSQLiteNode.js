@@ -1,0 +1,73 @@
+openapi: 3.0.0
+info:
+  title: backend SQLite Node.js
+  description: The main objective is to interact with SQLite databases from a Node.js application.
+  version: 0.0.1
+servers:
+  - url: http://localhost:4000
+    description: Project runs locally
+paths:
+  /ping:
+    get:
+      tags:
+      - main
+      responses:
+        200:
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: timestamp uptime application ect.
+
+  /api/mockupData:
+    get:
+      tags:
+      - main
+      responses:
+        200:
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: _id index guid ect.
+
+  /api/provinceData:
+    get:
+      tags:
+      - main
+      responses:
+        200:
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: id:1,name:Limburg,squaremeter:2147,capital:Maastricht
+
+  /api/rowData:
+    get:
+      tags:
+      - main
+      responses:
+        200:
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: id:2,name:Noord-Brabant,inhabitants:2563432
+
+  api/combinedData:
+    get:
+      tags:
+      - main
+      responses:
+        200:
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: name:Limburg,squaremeter:2147,capital:Maastricht,inhabitants:1117164
