@@ -38,7 +38,7 @@ Project is created with:
 * API
 
 ## Databases
-Used SQLite as relational database management system.
+Used `SQLite` as relational database management system.
 
 `DutchProvinces.db` has 2 different datasets:
 1. `infoProvince` - | name | squaremeter | capital |
@@ -47,6 +47,8 @@ Used SQLite as relational database management system.
 [Download SqLite](https://www.sqlite.org/index.html)
 
 ## APIs
+For this project we used `Swagger` to describe and document RESTful APIs.
+
 > Swagger documentation is listening at http://localhost:4000/api-docs
 
 > API ping is listening at http://localhost:4000/ping
@@ -74,5 +76,12 @@ Backend Express / Node.js starting point:
 Database SQLite starting point:
 [SQLite Tutorial](https://www.sqlitetutorial.net/)
 
+Testing Mocha Chai starting point:
+[Mocha Chai Tutorial](https://mochajs.org/)
+
+Swagger Documentation starting point:
+[Swagger Documentation](https://swagger.io/docs/)
+
 Random Mockup JSON generator:
 [JSON generator](https://www.json-generator.com/)
+
