@@ -23,18 +23,11 @@ This project has multiple objectives:
 ## Technologies
 Project is created with:
 * JavaScript
-  * Express
-  * Nodemon
-  * Sqlite3
-  * Winston
-  * Mocha
-  * Chai
-  * Chai-http
-  * Swagger-ui-express
-  * Yamljs
+
+Express | Nodemon | Sqlite3 | Winston | Mocha | Chai | Chai-http | Swagger-ui-express | Yamljs
 * SQLite
-  * SELECT WHERE 
-  * SELECT INNER JOIN
+
+SELECT WHERE | SELECT INNER JOIN
 * API
 
 ## Databases
